@@ -23,7 +23,7 @@ const ProductNew = () => {
     }
 
     return (
-        <ProductForm onSubmit={onSubmit}/>
+        <ProductForm onSubmit={onSubmit} content={""}/>
     )
 }
 
